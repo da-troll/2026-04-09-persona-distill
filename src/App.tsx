@@ -67,7 +67,7 @@ export default function App() {
     }
     setLoadingPreset(preset.id)
     try {
-      const res = await fetch('/api/distill', {
+      const res = await fetch('./api/distill', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ text: preset.excerpt, name: preset.name }),
