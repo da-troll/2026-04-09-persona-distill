@@ -1,0 +1,10 @@
+{
+  "id": "2026-04-09-persona-distill",
+  "title": "Persona Distill",
+  "description": "Paste any text — essays, tweets, transcripts — and Claude extracts the author's thinking style, mental models, and communication patterns into a chatbot you can talk to.",
+  "date": "2026-04-09",
+  "url": "https://mvp.trollefsen.com/2026-04-09-persona-distill/",
+  "tags": ["ai", "claude", "persona", "distillation", "chat"],
+  "stack": ["React", "TypeScript", "Express", "Anthropic API", "SSE streaming"],
+  "type": "server"
+}
